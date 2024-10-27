@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+header{
+    background-color: rgb(30, 18, 195);
+    box-shadow: 0px 3px 10px;
+}
+
+.carol1{
+    justify-content: space-between;
+    display: flex;
+    padding: 1.5rem 6rem;
+    
+}
+
+.logo1{
+    display: flex;
+    align-items: center;
+}
+
+.logo1 h1{
+    color:rgb(255, 255, 255); 
+    
+}
+.itens{
+    display: flex;
+    align-items: center;
+    color: white;
+    
+}
+
+.wave1{
+    position: absolute;
+    bottom: -200px;
+    margin-top:500px;
+    left: 0;
+    right: 0;
+ }
+
+.li1{
+    display: flex;
+    color: rgb(0, 0, 0); 
+    display: inline;
+    margin-right: 220px;
+    font-size: 19px;
+    font-family: "Inter";
+    margin: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.itens2{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.li1:hover{
+    border-bottom: 2px solid rgb(30, 18, 195);
+}
+
+
+.Introducao{
+    justify-content: center;
+    padding: 10px 170px 10px 170px;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.Introducao2{
+    color: rgb(30, 18, 195);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.paragrafo1{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 200px 10px 170px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.paragrafo2{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 200px 10px 170px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.divisao2{
+    padding: -1001px -111px -223px -100px;
+}
+
+.divisao3{
+    background-color: rgb(30, 18, 195);
+    padding: 10px 10px 200px 10px;
+    margin-top: 350px;
+}
+.empresa{
+    color: rgb(0, 0, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.paragrafobox1{
+    color: rgb(0, 0, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.box1{
+    background-color: rgb(255, 255, 255);
+    font-size: 18px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 20px rgb(0, 0, 0);
+    max-width: 30%;
+    padding: 10px 35px 10px 35px;
+    margin: 200px 10px 10px 130px
+}
+
+.paragrafobox2{
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.box2{
+    background-color: rgb(255, 255, 255);
+    font-size: 18px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 20px rgb(0, 0, 0);
+    max-width: 30%;
+    padding: 10px 35px 10px 35px;
+    margin: 30px 10px 10px 1100px;
+    margin-top: -565px;
+}
+
+.box1:hover{
+    transition-duration: 1s;
+    scale: 1.1;
+    box-shadow: 0px 10px 80px  rgb(255, 255, 255);
+    border-radius: 3px;
+}
+
+.box2:hover{
+    transition-duration: 1s;
+    scale: 1.1;
+    box-shadow: 0px 10px 80px  rgb(255, 255, 255);
+    border-radius: 3px;
+}
+
+.divisao4{
+    background-color: #f0f0f0;
+    padding: 10px 10px 20px 10px;
+}
+
+.Objetivos{
+    display: flex;
+    padding: 80px 200px 20px 300px;
+    font-size: 50px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Objetivos2{
+    color: rgb(30, 18, 195);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.paragrafo3{
+    padding: 10px 250px 20px 300px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.waves2{
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.divisao5{
+    background-color: #ffffff;
+    padding: 10px 10px 200px 40px;
+}
+
+.img1{
+    padding: 9px 10px 20px 100px;
+    margin: 10px 10px 10px 80px;
+    margin-top: 500px;
+}
+
+.Dúvida{
+    justify-content: center;
+    text-align: center;
+    margin-left: 500px;
+    margin-top: -700px;
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Dúvida2{
+    justify-content: center;
+    text-align: center;
+    margin-left: 500px;
+    margin-top: -30px;
+    font-size: 40px;
+    padding: 10px 10px 40px 10px;
+    color:  rgb(30, 18, 195);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.paragrafo4{
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    margin-left: 800px;
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.paragrafo4-1{
+    align-items: flex-start;
+    color: rgb(30, 18, 195);
+    display: contents;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.paragrafo4-2{
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.divisao6{
+    background-color:rgb(30, 18, 195) ;
+    padding: 10px 10px 250px 10px;
+}
+
+.rodape1{
+    color: white;
+    margin-left: 200px;
+    font-size: 25px;
+}
+
+.img2{
+    margin-left: 185px;
+    margin-top: 20px;
+
+}
+.github{ 
+    margin-left: 195px;
+    margin-top: -5px;
+    color: rgb(255, 255, 255);
+}
+
+.img3{
+    margin-left: 190px;
+    margin-top: 20px;
+}
+
+.instagram{
+    margin-left: 185px;
+    margin-top: 2px;
+    color: white;
+}
+
+.img4{
+    margin-left: 190px;
+    margin-top: 20px;
+}
+
+.twitter{
+    margin-left: 190px;
+    margin-top: 2px;
+    color: white;
+}
+
+.rodape2{
+    font-size: 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: -390px;
+}
+
+.rodape2-1{
+    margin-top: 30px;
+    justify-content: center;
+    display: flex;
+    color: white;
+    font-size: 16px;
+}
+
+.rodape2-2{
+    margin-top: 0px;
+    justify-content: center;
+    display: flex;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.rodape2-3{
+    margin-top: 0px;
+    justify-content: center;
+    display: flex;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.rodape3{
+    margin-left: 1500px;
+    margin-top: -420px;
+    font-size: 25px;
+    color: white;
+}
+
+.rodape3-1{
+    justify-content: end;
+    display: flex;
+    margin-right: 220px;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.rodape3-2{
+    justify-content: end;
+    display: flex;
+    margin-right: 258px;
+    color: white;
+    font-size: 16px;
+}
+
+.rodape3-3{
+    justify-content: end;
+    display: flex;
+    margin-right: 283px;
+    color: white;
+    font-size: 16px;
+}
+
+.rodape4{
+    margin-top: 220px;
+    display: flex;
+    justify-content: center;
+}
+
+a:hover{
+    transition-duration: 1s;
+    scale: (1.1);
+    border-radius: 6px;
+    color: rgb(0, 0, 0); 
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
